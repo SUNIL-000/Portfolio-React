@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Outfit:wght@200;300;400;500;600;700&family=Piazzolla:ital,wght@0,400;1,200;1,300;1,400&display=swap');
+
+
+
+#email-icon{
+    height: 22rem;
+}
+.connect-icon-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.connect-icon-div h1{
+    font-family: 'Fjalla One', sans-serif;  
+     color: black;
+}
+.input-tag{
+    width: 21rem;
+    height: 41px;
+    outline: none;
+}
+
+.input-label{
+    font-size: 20px;
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+.submit-btn{
+    border-radius: 8%;
+    text-transform: uppercase;
+    padding: 10px 21px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #fd990d;
+    color: black;
+    border: none;
+}
+.form-check-input:checked {
+    background-color: #fd990d;
+    border-color: #fdce0d;
+}
+.connect-bg{
+    padding: 20px;
+    /* background: #bababa6a; */
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 20px black; */
+}
+.arr-div3 {
+    height: 4px;
+    width: 29rem;
+    border: 3px solid rgb(255, 181, 7);
+    border-radius: 39%;
+    background: rgb(255, 181, 7);
+}
+.col-md-7{
+    display: flex;
+    justify-content: center;
+}
+
+.form-tag{
+    background: #d3a04e9e;
+    padding: 20px;
+    border-radius: 10px;
+}

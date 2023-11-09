@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Outfit:wght@200;300;400;500;600;700&display=swap');
+
+
+.skill-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-div  span{
+    height: 150px ;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    margin: 18px 30px;
+    box-shadow: 1px 6px 9px grey;
+    border-radius: 10%;
+    padding: 10px; 
+}
+.skill-div span img{
+    height: 64px;
+    width: 64px;
+    object-fit: cover;
+    cursor: pointer;
+
+}
+.skill-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.skill-text h1 {
+    text-transform: capitalize;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 1rem;
+    color: rgba(171, 101, 9, 0.926);
+}
+.skill-div div h3{
+    margin-top: 10px;
+    font-family: 'Outfit', sans-serif;    
+    color: rgb(31, 31, 31);
+    text-transform: capitalize;
+}
+#skill-desc{
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;      
+}
+.arr-div2 {
+    height: 4px;
+    width: 29rem;
+    border: 3px solid black;
+    border-radius: 39%;
+    background: black;
+}
